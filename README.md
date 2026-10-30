@@ -13,7 +13,7 @@ Running gotarget without any arguments makes a debug build in the current direct
 
 ## TUI
 `gotarget -t` lists every target your Go toolchain supports. It is not hardcoded as it uses `go tool dist list -json` under the hood. \
-Once you select a target and create a template, it autogenerates a build file in the current directory.
+Once you select a target and hit `Create Template`, it autogenerates a build file in the current directory.
 
 ![TUI ss](docs/tui.png)
 
